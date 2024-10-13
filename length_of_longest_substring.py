@@ -15,6 +15,10 @@ def length_of_longest_substring(s: str) -> int:
         
         # Calculate the length of the current substring
         max_length = max(max_length, end - start + 1)
+        print(char_index_map)
+        print(max_length)
+        print(start)
+        print("-------------")
     print(char_index_map)
     return max_length
 
